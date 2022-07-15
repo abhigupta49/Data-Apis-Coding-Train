@@ -20,7 +20,6 @@ async function catchRainbow(){
     console.log(response)
     
 }
-
 catchRainbow().then(response=>{
     console.log('yay');
 }).catch(error=>{
